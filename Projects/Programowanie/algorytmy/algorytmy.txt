@@ -1,0 +1,12 @@
+czy liczba jest pierwsza(niezoptymalizowany)
+//////////////////////////////
+bool czy_pierwsza (int x)
+{
+   for (int a=2;a<x;a++)
+   {
+   	if(x%a==0)
+	return false;
+   }
+	return true;
+}
+//////////////////////////////

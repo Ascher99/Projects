@@ -1,0 +1,1 @@
+w tym folderze znajdują się różne programy, w których ćwiczyłem zadania do matury z informatyki
