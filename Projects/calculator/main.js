@@ -77,6 +77,11 @@ case '*':
     result= a*b;
     break;
 case ':':
+      if (a === 0) {
+        alert("Cannot divide by zero!");
+        clearScreen();
+        return;
+    }
     result= b/a;
     break;
 case '()2':
