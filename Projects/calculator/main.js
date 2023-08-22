@@ -28,11 +28,11 @@ const historyBtn = document.querySelector('.history-btn');
 let result = '';
 
 function displayNumbers () {
-if(this.textContent === ',' && currentsNumber.innerHTML.includes(','))
+if(this.textContent === '.' && currentsNumber.innerHTML.includes('.'))
 return;
 
-if (this.textContent === ',' && currentsNumber.innerHTML === '' )
-return currentsNumber.innerHTML = ',0'
+if (this.textContent === '.' && currentsNumber.innerHTML === '' )
+return currentsNumber.innerHTML = '.0'
 
 currentsNumber.innerHTML += this.textContent;
 
